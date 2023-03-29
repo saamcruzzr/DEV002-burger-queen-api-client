@@ -1,16 +1,17 @@
 import React from "react";
-
+import logo from "../assets/logo.png";
 export function FormLogin (props) {
     console.log(props.saludo)
 
     return (
         <>
-            <form onSubmit={props.saludo}>
-                <h3> Aquí nos vamos a { props.accion } </h3>
-                <input id="1" placeholder='Email'/>
-                <input id="2" placeholder='Password'/>
-                <button type="submit" />
+            <form className="formularioLogin" onSubmit={props.saludo}>
+                <img className="logo" src={logo} />
+                <input id="1" placeholder='Email' type='email' />
+                <input id="2" placeholder='Password' type='password' />
+                <button type="submit">Ingresar</button>
             </form>
         </>
     );
 }
+// <h3> Aquí va el { props.accion } </h3>

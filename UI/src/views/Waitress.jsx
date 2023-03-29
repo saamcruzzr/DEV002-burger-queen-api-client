@@ -1,9 +1,18 @@
-import './Login.css' 
+// import './Login.css' 
 
-export default function Login(props) {
+// export function Login(props) {
+//     return (
+//         <h1 className="prueba">
+//             ESTE ES EL { props.accion }
+//         </h1>
+//     );
+// }
+
+export default function Waitress(props) {
     return (
         <h1 className="prueba">
-            ESTE ES EL { props.accion }
+            179864 { props.accion }
         </h1>
     );
 }
+

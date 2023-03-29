@@ -11,10 +11,12 @@ import './Login.css'
 const saludar = (event)=> {
     event.preventDefault()
    console.log(event.target)
+   //AQUÍ AGREGAR LA REDIRECCIÓN A WAITRESS / KITCHEN / ADMIN
 }
+
 export default function Login(props) {
     return (
-        < FormLogin saludo = {saludar} />
+        < FormLogin saludo = {saludar } accion = "logo" className="FL" />
         // <>
         //     <h3> Aquí nos vamos a { props.accion } </h3>
         //     <input id="1" placeholder='Email'/>
@@ -27,3 +29,5 @@ export default function Login(props) {
         // </>
     );
 }
+
+// AQUI AGREGAR EL FETCH API

@@ -7,9 +7,15 @@ export function FormLogin (props) {
         <>
             <form className="formularioLogin" onSubmit={props.saludo}>
                 <img className="logo" src={logo} />
-                <input id="1" placeholder='Email' type='email' />
-                <input id="2" placeholder='Password' type='password' />
-                <button type="submit">Ingresar</button>
+                <label className="correoLabel">Correo</label>
+                {/* <input id="1" placeholder='Correo' type='email' /> */}
+                <input className="input-email" id="1" type='email' />
+                {/* <p>Correo no válido</p> */}
+                <label className="contrasenaLabel">Contraseña</label>
+                {/* <input id="2" placeholder='Contraseña' type='password' /> */}
+                <input className="input-pass"id="2" type='password' />
+                {/* <p>Contraseña incorrecta</p> */}
+                <button className="btnLogin" type="submit">Ingresar</button>
             </form>
         </>
     );

@@ -1,3 +1,42 @@
+*{
+  background: none;
+  
+}
+body{
+  height: 100vh;
+}
+.nombre, .menuNombreApartados, .disponibilidad, .cantidadCard {
+  text-transform: uppercase;
+  /* background-color: none; */
+}
+
+.card{
+  border-radius: 20px;
+  background-color: var(--azul);
+  width: 230px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .seccionPyD{
+  flex-direction: row;
+} */
+/* .nombreProducto, .cantidadCard, .cantNumero, .notasCard, .ingCard, .ingredientes {} */
+  /* background-color: hide; */
+.cantNumero, .precioCard, .disponibilidad, .cantidadCard {
+  font-size: .8rem;
+  /* width: 50%; */
+}
+
+.cantidadCard{
+
+}
+
+.txtNotas{
+  background-color: var(--azul);
+}
 /* *{
   font-size: 1rem;
 }
@@ -5,3 +44,74 @@
 .prueba {
   color: #4e24c2;
 } */
+
+.nombreProducto{
+  font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+color: var(--negro);
+}
+.precioCard, .cantidadCard{
+  font-style: italic;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--morado);
+} 
+.disponibilidad, .cantNumero{
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: right;
+  color: var(--rosa);
+}
+.ingredientes, .notasCard{
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--morado);
+}
+.ingCard{
+  font-size: 10px;
+  line-height: 12px;
+  text-align: justify;
+  color: var(--negro-50);
+  padding: 28px;
+  
+}
+.txtNotas{
+  width: 10.8rem;
+  height: 4.2rem;
+  
+  background: var(--azul-claro);
+  border-radius: 3px;
+  border: none;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--negro-50);
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.btnPedidos{
+  margin-top: 2rem;
+  /* margin-bottom: 3rem; */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  border: 2px solid var(--azul);
+  border-radius: 7px;
+
+  width: 8.8rem;
+  height: 2.3rem;
+}
+.btnPedidos:hover{
+  border: 2px solid var(--morado);
+  color: var(--azul);
+}
+.btnPedidos:active{
+  /* border: 2px solid var(--rosa); */
+  color: var(--rosa);
+}

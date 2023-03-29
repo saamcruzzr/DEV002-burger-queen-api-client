@@ -1,0 +1,69 @@
+.ordenes{
+    position: absolute;
+    width: 24rem;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    /* left: 602px;
+    top: 0px; */
+    background: var(--morado);
+    /* padding: 2rem; */
+    /* z-index: 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.input-cliente{
+    /* width: 30%;
+    margin-left: 30rem; */
+    /* position: absolute; */
+    width: 13rem;
+    /* height: 0px; */
+    /* left: 627px;
+    top: 84px; */
+    margin-right: 1.5rem;
+
+  }
+  .input-mesa{
+    /* width: 10%;
+    margin-left: 1rem;
+    margin-right: 1rem; */
+    /* position: absolute; */
+    width: 5rem;
+    /* height: 0px; */
+    /* left: 901px;
+    top: 84px; */
+  }
+  .input-cliente, .input-mesa{
+    /* width: 45%; */
+    border: none;
+    border-bottom: 5px solid var(--azul);
+    outline: none;
+    letter-spacing: 0.15em;
+    color: var(--azul-claro);
+    /* z-index: 2; */
+  }
+  .enviarCocina{
+    
+    margin-top: 2rem;
+    /* margin-bottom: 3rem; */
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-size: 1rem;
+  
+    border: 2px solid var(--azul);
+    border-radius: 7px;
+  
+    width: 13rem;
+    height: 2.3rem;
+  }
+  .enviarCocina:hover{
+    border: 2px solid var(--negro);
+    color: var(--azul);
+  }
+  .enviarCocina:active{
+    /* border: 2px solid var(--rosa); */
+    color: var(--rosa);
+  }

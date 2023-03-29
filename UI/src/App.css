@@ -1,12 +1,14 @@
-:root{
-  --azul-claro: #c4d1de;
-
-}
+/* :root{
+  --negro:#121212;
+  --morado:#606796;
+  --azul:#A6DCEF;
+  --azul-claro:#DDF3F5;
+  --rosa: #E36387;
+  --rosa-claro: #F2AAAA;
+} */
 
 *{
-
-  font-size: 1rem;
-  background-color: #121212;
+  font-size: 1.1rem;
   margin: 0;
   color: var(--azul-claro);
   /* border: #12c418 solid 2px; */
@@ -14,7 +16,9 @@
   /* align-items: center; */
   /* justify-content: center; */
 }
-
+body{
+  background-color: var(--negro);
+}
 /* body{
   height: 100vh;
 } */

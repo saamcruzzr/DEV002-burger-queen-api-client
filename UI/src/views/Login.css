@@ -1,4 +1,5 @@
 
+
 .formularioLogin{
   display: flex;
   justify-content: center;
@@ -6,6 +7,8 @@
   /* text-align: center; */
   flex-direction: column;
   height: 100vh;
+  gap: 1.5rem;
+  
   /* width: 50%; */
   /* align-items: center;
   justify-content: center; 
@@ -17,25 +20,68 @@
   flex-direction: column;
   text-align: center;
   */
+  
 }
 .prueba {
   color: #4e24c2;
 }
 
 .logo{
-  width: 30%;
-  margin-bottom: 1rem;
-  margin-top: 0;
+  width: 26%;
+  /* margin-bottom: 2rem; */
+  /* margin-top: 0; */
+}
+.correoLabel, .contrasenaLabel{
+  /* position: absolute; */
+  width: 45%;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 0.2em;
+  color: var(--azul-claro);
+  font-weight: 200;
+  /* z-index: 1; */
+}
+/* .correoLabel{
+  top:55.5%;
+}
+.contrasenaLabel{
+  bottom: 33%;
+} */
+
+.input-email, .input-pass{
+  /* margin-top: 1rem;
+  margin-bottom: 3rem; */
+  width: 45%;
+  border: none;
+  border-bottom: 5px solid var(--azul);
+  outline: none;
+  letter-spacing: 0.15em;
+  color: var(--azul-claro);
+  /* z-index: 2; */
 }
 
-input {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 40%;
-  border: none;
-  border-bottom: 5px solid var(--azul-claro);
+.input-email{
+  text-transform: lowercase;
 }
-button{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+
+.btnLogin{
+  margin-top: 2rem;
+  /* margin-bottom: 3rem; */
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  border: 2px solid var(--azul);
+  border-radius: 7px;
+
+  width: 8.8rem;
+  height: 2.3rem;
+}
+.btnLogin:hover{
+  border: 2px solid var(--morado);
+  color: var(--azul);
+}
+.btnLogin:active{
+  /* border: 2px solid var(--rosa); */
+  color: var(--rosa);
 }

@@ -1,9 +1,9 @@
 
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Waitress from "./views/Waitress.jsx";
 import Login from "./views/Login.jsx";
 import Kitchen from "./views/Kitchen.jsx";
 import Admin from "./views/Admin.jsx";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import './App.css'
 
 // function App() {
@@ -28,7 +28,7 @@ function App() {
       </nav> */}
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="waitress" element={<Waitress accion = "tomar la orden" />}/>
+        <Route path="waitress" element={<Waitress />}/>
         <Route path="kitchen" element={<Kitchen accion = "holi crayoli" />}/>
         <Route path="admin" element={<Admin accion = "3312" />}/>
       </Routes>

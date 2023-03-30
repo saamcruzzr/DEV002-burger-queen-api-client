@@ -20,12 +20,12 @@ import './App.css'
 function App() {
   return (
     <BrowserRouter>
-      {/* <nav className="barra-nav">
+      <nav className="barra-nav">
         <Link to="/">Login   ----</Link> 
         <Link to="/waitress">Waitress   ----</Link>
         <Link to="/kitchen">Kitchen   ----</Link>
         <Link to="/admin">Admin   ----</Link>
-      </nav> */}
+      </nav>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="waitress" element={<Waitress />}/>

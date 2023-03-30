@@ -59,20 +59,20 @@ export default function Login(props) {
 
 // AQUI AGREGAR EL FETCH API
 // const fetchAPI = () => {
-   fetch("http://localhost:8080/login", {
-      method: "POST",
-      headers: {
-        accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        email: 'anita.borg@systers.xyz',
-        password: "123456",
-     }),
-    })
-    .then((response) => response.json())
-    .then((data) => {
-        console.log(data);
-    })
-    .catch((error) => console.error(error)); 
+//    fetch("http://localhost:8080/login", {
+//       method: "POST",
+//       headers: {
+//         accept: "application/json",
+//         "Content-Type": "application/json",
+//       },
+//       body: JSON.stringify({
+//         email: 'anita.borg@systers.xyz',
+//         password: "123456",
+//      }),
+//     })
+//     .then((response) => response.json())
+//     .then((data) => {
+//         console.log(data);
+//     })
+//     .catch((error) => console.error(error)); 
 // }
